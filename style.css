@@ -1,0 +1,111 @@
+/* CSS comments use astericks and forward slash. */
+* {   
+    border: 0px solid red;
+}
+body { 
+    background-image: url(img/denim.webp);
+    background-repeat: repeat;
+}
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(144, 143, 173);
+    color: rgb(0, 0, 0);
+    padding-left: 1%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 3%;
+}
+
+
+a {
+    color: rgb(0, 0, 209);
+}
+a:active,
+a:focus,
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(144, 0, 122);
+}
+
+
+
+header {
+    margin: 3% 2% 1% 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid black;
+}
+h1, h2, h3 {
+    font-weight: 900;
+    text-align: center;
+    
+}
+h2, h3 {
+    color: white;
+    background-color: rgb(20, 20, 20);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+h5 {
+    font-style: italic;
+    text-align: center;
+}
+p {
+    line-height: 1.5;
+    padding: 1% 2%;
+}
+ul {
+    margin: 0% 4%;
+    line-height: 2;
+}
+section {
+    margin: 2% 2%;
+    background-color: rgb(180, 180, 180);
+    font-family: 'Open Sans', sans-serif;
+}
+.center-img {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    text-align: center;
+}
+.underline {
+    text-decoration: underline;
+}
+.banner {
+    height: 300px;
+    background-image: url(img/banner.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1 {
+    font-size: 48px;
+}
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
